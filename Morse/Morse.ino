@@ -75,7 +75,7 @@ void loop()
       morse.dash();
       else if (morse_s[i] == ' ')
       morse.w_space();
-      if (morse_s[i] != ' ' && str[i] != '*')
+      if (morse_s[i] != ' ' && wzy[i] != '*')
       morse.c_space();
     }
     Serial.println("发送完毕");
